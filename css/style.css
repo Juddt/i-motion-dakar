@@ -2366,4 +2366,11 @@ nav .spa-btn:hover {
     nav a {
         color: #050505;
     }
+
+    nav .reservation-btn,
+    nav .spa-btn {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    }
 }
