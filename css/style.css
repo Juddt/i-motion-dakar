@@ -2261,3 +2261,109 @@ nav .spa-btn:hover {
 }
 
 
+
+/* TARIFS COMPACTS */
+
+.compact-price-card {
+    padding: 26px 28px;
+}
+
+.compact-price-card h3 {
+    font-size: 34px;
+    margin-bottom: 18px;
+}
+
+.compact-price-line {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 14px;
+
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(30, 180, 232, 0.18);
+}
+
+.compact-price-line:last-child {
+    border-bottom: none;
+}
+
+.compact-price-line span {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #374151;
+}
+
+.compact-price-line strong {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: #1eb4e8;
+    white-space: nowrap;
+}
+
+/* MOBILE TARIFS ENCORE PLUS PROPRE */
+
+@media (max-width: 768px) {
+
+    .pricing-section {
+        padding: 55px 14px;
+    }
+
+    .pricing-header {
+        margin-bottom: 35px;
+    }
+
+    .pricing-header h2 {
+        font-size: 42px;
+    }
+
+    .pricing-service-grid {
+        gap: 14px;
+    }
+
+    .compact-price-card {
+        padding: 18px 16px;
+    }
+
+    .compact-price-card h3 {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+
+    .compact-price-line {
+        grid-template-columns: 1fr auto;
+        padding: 9px 0;
+        gap: 10px;
+    }
+
+    .compact-price-line span {
+        font-size: 12px;
+    }
+
+    .compact-price-line strong {
+        font-size: 18px;
+    }
+
+    /* HEADER MOBILE */
+    .menu-toggle {
+        width: 48px;
+        height: 42px;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #ffffff;
+        border: 1px solid rgba(5, 5, 5, 0.15);
+    }
+
+    .menu-toggle span {
+        background-color: #050505;
+    }
+
+    nav {
+        background-color: #ffffff;
+    }
+
+    nav a {
+        color: #050505;
+    }
+}
