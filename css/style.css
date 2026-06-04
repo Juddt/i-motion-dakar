@@ -2162,3 +2162,102 @@ nav .spa-btn:hover {
     background-color: #050505;
     color: #ffffff;
 }
+
+
+@media (max-width: 768px) {
+
+    /* TARIFS MOBILE */
+    .pricing-section {
+        padding: 60px 16px;
+    }
+
+    .pricing-header h2 {
+        font-size: 46px;
+    }
+
+    .pricing-service-grid,
+    .clean-pricing-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .pricing-service-card,
+    .clean-price-card {
+        padding: 22px;
+    }
+
+    .pricing-service-card h3,
+    .clean-price-card h3 {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+
+    .price-line {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 12px;
+        padding: 12px 0;
+    }
+
+    .price-line span {
+        font-size: 13px;
+    }
+
+    .price-line strong {
+        font-size: 20px;
+    }
+
+    /* RÉSERVATION MOBILE */
+    .booking-page {
+        padding: 24px 12px;
+    }
+
+    .booking-card {
+        padding: 26px 16px;
+    }
+
+    .booking-card h1 {
+        font-size: 42px;
+    }
+
+    .booking-service-card {
+        padding: 22px 18px;
+    }
+
+    .booking-service-card h3 {
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+
+    .booking-choice {
+        min-height: auto;
+        padding: 14px 14px 14px 48px;
+        margin-bottom: 10px;
+
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .booking-choice span {
+        font-size: 13px;
+        line-height: 1.3;
+    }
+
+    .booking-choice strong {
+        font-size: 20px;
+    }
+
+    .choice-check {
+        left: 16px;
+        width: 17px;
+        height: 17px;
+    }
+
+    .booking-options {
+        grid-template-columns: 1fr;
+    }
+}
+
+
