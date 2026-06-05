@@ -2370,14 +2370,102 @@ nav .spa-btn:hover {
         color: #050505;
     }
 
-    .mobile-service {
-        display: block;
-    }
 
     nav .reservation-btn,
     nav .spa-btn {
     display: block;
     width: 100%;
     margin: 8px 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    nav ul {
+        padding: 18px 24px;
+        gap: 0;
+    }
+
+    nav li {
+        padding: 7px 0;
+    }
+
+    nav a {
+        font-size: 10px;
+        letter-spacing: 2.2px;
+        line-height: 1.2;
+    }
+
+    .mobile-service {
+        display: block;
+    }
+
+    .mobile-menu-title {
+        margin-bottom: 6px;
+        font-family: 'Inter', sans-serif;
+        font-size: 10px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #1eb4e8;
+    }
+
+    .mobile-menu-separator {
+        height: 1px;
+        margin: 12px 0;
+        padding: 0;
+        background-color: rgba(30, 180, 232, 0.35);
+    }
+
+    nav .reservation-btn,
+    nav .spa-btn {
+        display: block;
+        width: 100%;
+        max-width: 430px;
+        margin: 8px auto 0;
+        padding: 14px 16px;
+        text-align: center;
+    }
+
+    nav .spa-btn {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        padding: 18px 24px;
+    }
+
+    nav li {
+        padding: 7px 0;
+    }
+
+    .mobile-service {
+        display: block;
+    }
+
+    .mobile-menu-title {
+        font-family: 'Inter', sans-serif;
+        font-size: 10px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #1eb4e8;
+    }
+
+    .mobile-menu-separator {
+        height: 1px;
+        margin: 10px 0;
+        padding: 0;
+        background-color: rgba(30, 180, 232, 0.35);
+    }
+
+    nav .reservation-btn,
+    nav .spa-btn {
+        display: block;
+        width: 100%;
+        margin: 8px auto 0;
+        padding: 14px 16px;
+        text-align: center;
     }
 }
