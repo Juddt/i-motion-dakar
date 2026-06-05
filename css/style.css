@@ -2301,6 +2301,9 @@ nav .spa-btn:hover {
     white-space: nowrap;
 }
 
+.mobile-service {
+    display: none;
+}
 /* MOBILE TARIFS ENCORE PLUS PROPRE */
 
 @media (max-width: 768px) {
@@ -2365,6 +2368,10 @@ nav .spa-btn:hover {
 
     nav a {
         color: #050505;
+    }
+
+    .mobile-service {
+        display: block;
     }
 
     nav .reservation-btn,
